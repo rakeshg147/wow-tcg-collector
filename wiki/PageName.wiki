@@ -11,3 +11,4 @@ Features:
   * *Manage whole cards* (search, filter, ...)
   * *Manage own collection* (cards owned, cards wanted, cards tradable...)
   * *Deck construction* (including restriction and exception)
+  * *Trading mechanism* (Export, online capabilities ???)
