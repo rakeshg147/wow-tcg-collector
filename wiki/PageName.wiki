@@ -12,3 +12,27 @@ Features:
   * *Manage own collection* (cards owned, cards wanted, cards tradable...)
   * *Deck construction* (including restriction and exception)
   * *Trading mechanism* (Export, online capabilities ???)
+
+Database creation:
+  * Using sevral xml files, one per release (Crafted item or promotional cards tbd)
+  * Squeleton of the xml file:
+    <card 
+      id="" 
+      name="" 
+      faction="" 
+      type="" 
+      keywords="" 
+      race="" 
+      class="" 
+      talent="" 
+      professions="" 
+      cost="" 
+      atk="" 
+      strike_cost="" 
+      def="" 
+      health="" 
+      rarity="" 
+      illustrator="">
+      <cardtext> </cardtext>
+      <flavortext> </flavortext>
+    </card>
