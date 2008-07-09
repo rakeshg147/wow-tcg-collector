@@ -1,0 +1,13 @@
+#Description of the project
+
+= Introduction =
+
+UDE - wow - tcg
+
+
+= Details =
+
+Features:
+  * *Manage whole cards* (search, filter, ...)
+  * *Manage own collection* (cards owned, cards wanted, cards tradable...)
+  * *Deck construction* (including restriction and exception)
