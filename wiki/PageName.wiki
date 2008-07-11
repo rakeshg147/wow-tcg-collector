@@ -47,7 +47,7 @@ Database creation:
      Molten Core : MCxxx.jpg
      Fire of the Outland : FOOxxx.jpg
      March of the Legion : MOLxxx.jpg
-     Magtheridon's Lair : MAGxxx.jpg
+     Magtheridon Lair : MAGxxx.jpg
      Servants of the Betrayer : SOBxxx.jpg
      The Hunt for Illidan : HFIxxx.jpg
     }}}
