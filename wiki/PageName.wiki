@@ -16,6 +16,7 @@ Features:
 Database creation:
   * Using sevral xml files, one per release (Crafted item or promotional cards tbd)
   * Squeleton of the xml file:
+{{{
     <card 
       id=""%%%
       name="" 
@@ -36,7 +37,9 @@ Database creation:
       <cardtext> </cardtext>
       <flavortext> </flavortext>
     </card>
+}}}
   * The id number will contain information concerning the card number, the release (Azeroth, Dark Portal ...) AND will be the name of the associated .jpg:
+{{{
      Heroes of Azeroth : HOAxxx.jpg
      Onyxia : ONYxxx.jpg
      Burning Crusade : BCxxx.jpg
@@ -47,4 +50,4 @@ Database creation:
      Magtheridon's Lair : MAGxxx.jpg
      Servants of the Betrayer : SOBxxx.jpg
      The Hunt for Illidan : HFIxxx.jpg
-     
+    }}}
