@@ -17,26 +17,33 @@ Database creation:
   * Using sevral xml files, one per release (Crafted item or promotional cards tbd)
   * Squeleton of the xml file:
 {{{
-    <card 
-      id=""%%%
-      name="" 
-      faction="" 
-      type="" 
-      keywords="" 
-      race="" 
-      class="" 
-      talent="" 
-      professions="" 
-      cost="" 
-      atk="" 
-      strike_cost="" 
-      def="" 
-      health="" 
-      rarity="" 
-      illustrator="">
-      <cardtext> </cardtext>
-      <flavortext> </flavortext>
-    </card>
+   <card id=""
+        name=""
+	faction=""
+	type=""
+	supertype=""
+	subtype=""
+	keywords=""
+	race=""
+	class=""
+	allowedrace=""
+	allowedtalent=""
+	allowedprofession=""
+	allowedclass=""
+	talent=""
+	professions=""
+	cost=""
+	atk=""
+	atktype=""
+	strike_cost=""
+	def=""
+	health=""
+	rarity=""
+	artistname="">
+	<cardtext> </cardtext>
+	<flavortext> </flavortext>
+   </card>
+
 }}}
   * The id number will contain information concerning the card number, the release (Azeroth, Dark Portal ...) AND will be the name of the associated .jpg:
 {{{
