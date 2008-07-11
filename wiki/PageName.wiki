@@ -36,3 +36,15 @@ Database creation:
       <cardtext> </cardtext>
       <flavortext> </flavortext>
     </card>
+  * The id number will contain information concerning the card number, the release (Azeroth, Dark Portal ...) AND will be the name of the associated .jpg:
+     Heroes of Azeroth : HOA***.jpg
+     Onyxia : ONY***.jpg
+     Burning Crusade : BC***.jpg
+     Dark Portal : DP***.jpg
+     Molten Core : MC***.jpg
+     Fire of the Outland : FOO***.jpg
+     March of the Legion : MOL***.jpg
+     Magtheridon's Lair : MAG***.jpg
+     Servants of the Betrayer : SOB***.jpg
+     The Hunt for Illidan : HFI***.jpg
+     
