@@ -1,14 +1,21 @@
 package common;
 
 import javax.swing.SwingUtilities;
+import xml.ReadCards;
 
 public class Main {
+	
+	
 	public static void main(String[] args){
 		SwingUtilities.invokeLater(new Runnable(){
 			public void run(){
-				//On crée une nouvelle instance de notre JDialog
-				gui.MainFrame fenetre = new gui.MainFrame();
-				fenetre.setVisible(true);//On la rend visible
+			    Logs.start();
+			    ReadCards.readCardsInXML();
+
+				//Create and display the main frame
+				gui.MainFrame mainFrame = new gui.MainFrame();
+				mainFrame.setVisible(true); 
+				
 			}
 		});
 	}
