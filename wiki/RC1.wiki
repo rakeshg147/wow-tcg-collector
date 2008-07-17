@@ -10,9 +10,10 @@ Codename: Eye of Kilrogg.
 Feature mandatory:
   * XML generator from Excell files
   * Engine to manage xml files
-  * GUI:
+  * GUI:{{{
        - Display card
        - Data sorted by column
        - Filtering rules
        - counting card
        - Saving database
+}}}
