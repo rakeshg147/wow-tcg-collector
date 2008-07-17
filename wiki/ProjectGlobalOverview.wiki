@@ -16,7 +16,7 @@ Features:
   * *Trading mechanism* (Export, online capabilities ???)
 
 Database creation:
-  * Using sevral xml files, one per release (Crafted item or promotional cards tbd)
+  * Using several xml files, one per release (Crafted item or promotional cards tbd)
   * Squeleton of the xml file:
 {{{
    <card id=""
