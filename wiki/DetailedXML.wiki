@@ -1,0 +1,14 @@
+#labels Phase-Design
+#All about the XML files here.
+
+= Introduction =
+
+Summary of all the data needed for the XML files.
+
+
+= Needed information =
+
+XML coding:
+  * Skeleton
+  * Fields explanation
+  * Number of XML files ...
