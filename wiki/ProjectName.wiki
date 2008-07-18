@@ -13,6 +13,6 @@ List your proposals here with long name and abbreviation:
       * ...
   # History-like names:
       * the Archivist
-      * ArchiWoWist
-      * WoWffice 
+      * ~ArchiWoWist
+      * ~WoWffice 
       * ...
