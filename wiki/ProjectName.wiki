@@ -5,6 +5,8 @@ List your proposals here with long name and abbreviation:
   # WowTCG Warlock abilities
       * Eye Of Kilrogg (EOK) 
       * Forbidden Knowledge(FK)
+      * ...
   # Wow Engineer-like name: 
       * Ultra Safe Archiver (USA)
-      * Archive-o-Bot (AoB) 
+      * Archive-o-Bot (AoB)
+      * ... 
