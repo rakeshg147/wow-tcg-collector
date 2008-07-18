@@ -1,0 +1,6 @@
+#Finding a project name
+
+List your proposals here with long name and abbreviation:
+  * Eye Of Kilrogg - EOK
+  * Forbidden Knowledge - FK
+  * 
