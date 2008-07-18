@@ -47,16 +47,27 @@ Database creation:
    </card>
 
 }}}
-  * The id number will contain information concerning the card number, the release (Azeroth, Dark Portal ...) AND will be the name of the associated .jpg:
+  * id of the card:
+        * example1: 
 {{{
-     Heroes of Azeroth : HOAxxx.jpg
-     Onyxia : ONYxxx.jpg
-     Burning Crusade : BCxxx.jpg
-     Dark Portal : DPxxx.jpg
-     Molten Core : MCxxx.jpg
-     Fire of the Outland : FOOxxx.jpg
-     March of the Legion : MOLxxx.jpg
-     Magtheridon Lair : MAGxxx.jpg
-     Servants of the Betrayer : SOBxxx.jpg
-     The Hunt for Illidan : HFIxxx.jpg
-    }}}
+<cardset name="Fires of Outland" id="OUTLAND">
+    <card id="6" 
+          health="28"
+          ... > 
+    </card>
+</cardset>
+
+image: FOO-6.jpg or outland-6.jpg
+}}}
+        * Example2: The id number will contain information concerning the card number, the extension (Azeroth, Dark Portal ...) AND will be the name of the associated .jpg:
+{{{
+<cardset name="Fires of Outland" id="OUTLAND">
+    <card id="FOO-6" 
+          health="28"
+          ... > 
+    </card>
+</cardset>
+image: FOO-6.jpg
+}}}
+
+For details on the extension names, shortnames... see [http://spreadsheets.google.com/ccc?key=pJfJ3W0ysXywzKuncj23XBg googledocs]
