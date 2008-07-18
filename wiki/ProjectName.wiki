@@ -2,7 +2,7 @@
 #Finding a project name
 
 List your proposals here with long name and abbreviation:
-  # WowTCG Warlock abilities *
+  # WowTCG Warlock abilities
       * Eye Of Kilrogg (EOK) 
       * Forbidden Knowledge(FK)
   # Wow Engineer-like name: 
