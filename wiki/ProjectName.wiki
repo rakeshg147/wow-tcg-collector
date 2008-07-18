@@ -10,3 +10,5 @@ List your proposals here with long name and abbreviation:
       * Ultra Safe Archiver (USA)
       * Archive-o-Bot (AoB)
       * ... 
+  # History-like names:
+      * the Archivist
