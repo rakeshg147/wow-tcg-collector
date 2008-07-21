@@ -18,4 +18,5 @@ List your proposals here with long name and abbreviation:
       * ...
 
   # I got it! I got it! I ...
-*Deckomatic*
+      * *Deckomatic*
+      * Shortened to: DoM or DM
