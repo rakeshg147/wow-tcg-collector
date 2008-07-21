@@ -11,7 +11,7 @@ Summary of all the data needed for the XML files.
   * card name (ex: Eye of Kilrogg)
   * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
   * race (ex: Human, Orc, ...)
-  * class (ex: Warrior, Mage, ...
+  * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
   * profession (Mining, Tailoring, ...)
   * faction (ex: Alliance, Horde, Neutral)
