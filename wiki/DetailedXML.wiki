@@ -7,27 +7,51 @@ Summary of all the data needed for the XML files.
 
 = What is a WOW card? =
 
-* card id (ex: TDP-105)
-* card name (ex: Eye of Kilrogg)
-* rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
-* faction (ex: Alliance, Horde, Neutral)
-* type (ex: Ability, Ally, Ally Token, Armor, Blood, Cube, Event, Hero, Item, Lair, Quest, Rune, Token, Weapon)
-* supertype ()
-* subtype
-* race
-* class
-* talent
-* profession
-* flavor text
-* illustrator
-* cost
-* health
-* atk
-* atk type
-* strike cost :
-* def :
-* card rarity :
-* releases :
+  * card id (ex: TDP-105)
+  * card name (ex: Eye of Kilrogg)
+  * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
+  * race (ex: Human, Orc, ...)
+  * class (ex: Warrior, Mage, ...
+  * talent (Feral, Fire, ...)
+  * profession (Mining, Tailoring, ...)
+  * faction (ex: Alliance, Horde, Neutral)
+  * type (ex: Ability, Ally, Ally Token, Armor, Blood, Cube, Event, Hero, Item, Lair, Quest, Rune, Token, Weapon)
+  * supertype (Instant, Two-Handed)
+  * subtype (ex: Fire, Axe, Demon, Elf, Felguard, ...)
+  * specialization (ex: Talent, Talent Curse, Demon Talent, ...)
+  * flavor text (ex: Speaking never seemed like a luxury before...)
+  * illustrator (ex: Ron Spencer)
+  * cost (ex: 0, 1, 2, ...)
+  * health (ex: 0, 1, 2, ...)
+  * atk (ex: 0, 1, 2, ...)
+  * atk type (melee, ranged, fire, frost, arcane, nature, holy, shadow)
+  * strike cost (ex: 0, 1, 2, ...)
+  * def (ex: 0, 1, 2, ...)
+  * card rarity (ex: Common, Uncommon, Rare, Epic)
+  * releases
+    * !
+    * !
+    * !
+    * !
+    * !
+    * !
+    * !
+    * !
+    * !
+    * !
+    * FoO : Fires of Outland 
+    * MC : Molten Core
+    * TDP : Through the Dark Portal
+    * BCP : Burning Crusade Promos
+    * OL : Onyxia's Lair
+    * HoA : Heroes of Azeroth
+Restrictions:
+  * race (ex: Human, Orc, ...)
+  * class (ex: Warrior, Mage, ...
+  * talent (Feral, Fire, ...)
+  * profession (Mining, Tailoring, ...)
+  * in-play type (ex: Pet, Melee, Aura, ...)
+  * in-play limit (ex: 1, 2, ...)
 
 = Needed information =
 
