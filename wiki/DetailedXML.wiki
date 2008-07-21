@@ -5,6 +5,29 @@
 
 Summary of all the data needed for the XML files.
 
+= What is a WOW card? =
+
+* card id (ex: TDP-105)
+* card name (ex: Eye of Kilrogg)
+* rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
+* faction (ex: Alliance, Horde, Neutral)
+* type (ex: Ability, Ally, Ally Token, Armor, Blood, Cube, Event, Hero, Item, Lair, Quest, Rune, Token, Weapon)
+* supertype ()
+* subtype
+* race
+* class
+* talent
+* profession
+* flavor text
+* illustrator
+* cost
+* health
+* atk
+* atk type
+* strike cost :
+* def :
+* card rarity :
+* releases :
 
 = Needed information =
 
