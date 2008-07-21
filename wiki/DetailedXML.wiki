@@ -7,7 +7,7 @@ Summary of all the data needed for the XML files.
 
 = What is a WOW card? =
 
-  * card id (ex: TDP-105)
+  * card id (ex: TDP-105 or 1105 ...)
   * card name (ex: Eye of Kilrogg)
   * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
   * race (ex: Human, Orc, ...)
@@ -29,16 +29,12 @@ Summary of all the data needed for the XML files.
   * def (ex: 0, 1, 2, ...)
   * card rarity (ex: Common, Uncommon, Rare, Epic)
   * releases
-    * !
-    * !
-    * !
-    * !
-    * !
-    * !
-    * !
-    * !
-    * !
-    * !
+    * HfI : Hunt for Illidan
+    * SoB : Servants of the Betrayer
+    * ML : Magtheridon's Lair
+    * FWV : Feast of Winter Veil 2007
+    * MoL : March of the Legion
+    * CRP : Crafting Redemption Program
     * FoO : Fires of Outland 
     * MC : Molten Core
     * TDP : Through the Dark Portal
