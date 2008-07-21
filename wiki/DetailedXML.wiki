@@ -43,7 +43,7 @@ Summary of all the data needed for the XML files.
     * HoA : Heroes of Azeroth
 Restrictions:
   * race (ex: Human, Orc, ...)
-  * class (ex: Warrior, Mage, ...
+  * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
   * profession (Mining, Tailoring, ...)
   * in-play type (ex: Pet, Melee, Aura, ...)
