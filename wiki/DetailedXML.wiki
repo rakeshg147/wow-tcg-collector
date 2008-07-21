@@ -28,7 +28,7 @@ Summary of all the data needed for the XML files.
   * strike cost (ex: 0, 1, 2, ...)
   * def (ex: 0, 1, 2, ...)
   * card rarity (ex: Common, Uncommon, Rare, Epic)
-  * releases
+  * release
     * HfI : Hunt for Illidan
     * SoB : Servants of the Betrayer
     * ML : Magtheridon's Lair
