@@ -1,5 +1,5 @@
 #labels Featured,Phase-Requirements
-#Finding a project name
+=Finding a project name=
 
 List your proposals here with long name and abbreviation:
   # *WowTCG Warlock abilities:*
@@ -17,3 +17,9 @@ List your proposals here with long name and abbreviation:
       * !ArchiWoWist
       * !WoWffice 
       * ...
+
+=Making the project promotion=
+  # *Wallpapers:*
+http://z1.zod.fr/z/dom-Xbt.jpg
+  # *Teasers:*
+  # *Goodies:*
