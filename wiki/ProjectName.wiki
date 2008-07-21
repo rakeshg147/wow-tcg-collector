@@ -2,21 +2,18 @@
 #Finding a project name
 
 List your proposals here with long name and abbreviation:
-  # WowTCG Warlock abilities
+  # *WowTCG Warlock abilities:*
       * Eye Of Kilrogg (EOK) 
       * Forbidden Knowledge(FK)
       * ...
-  # Wow Engineer-like name: 
+  # *Wow Engineer-like name:* 
       * Ultra Safe Archiver (USA)
       * Archive-o-Bot (AoB)
       * Deck-WoW-Matic (DWoWM)
+      * Deckomatic (DoM or DM)
       * ...
-  # History-like names:
+  # *History-like names:*
       * the Archivist
       * !ArchiWoWist
       * !WoWffice 
       * ...
-
-  # I got it! I got it! I ...
-      * *Deckomatic*
-      * Shortened to: DoM or DM
