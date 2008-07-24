@@ -10,6 +10,7 @@ Summary of all the data needed for the XML files.
   * card id (ex: TDP-105 or 1105 ...)
   * card name (ex: Eye of Kilrogg)
   * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
+  * keywords (ex: Protector, Elusive, Untargetable, Ferocity, Long-Range
   * race (ex: Human, Orc, ...)
   * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
