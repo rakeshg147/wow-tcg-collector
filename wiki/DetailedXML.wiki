@@ -10,7 +10,7 @@ Summary of all the data needed for the XML files.
   * card id (ex: TDP-105 or 1105 ...)
   * card name (ex: Eye of Kilrogg)
   * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
-  * keywords (ex: Protector, Elusive, Untargetable, Ferocity, Long-Range
+  * keywords (ex: Protector, Elusive, Untargetable, Ferocity, Long-Range, Stealth)
   * race (ex: Human, Orc, ...)
   * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
@@ -18,7 +18,7 @@ Summary of all the data needed for the XML files.
   * faction (ex: Alliance, Horde, Neutral)
   * type (ex: Ability, Ally, Ally Token, Armor, Blood, Cube, Event, Hero, Item, Lair, Quest, Rune, Token, Weapon)
   * supertype (Instant, Two-Handed)
-  * subtype (ex: Fire, Axe, Demon, Elf, Felguard, ...)
+  * subtype (ex: Fire, Axe, Demon, Felguard, ...)
   * specialization (ex: Talent, Talent Curse, Demon Talent, ...)
   * flavor text (ex: Speaking never seemed like a luxury before...)
   * illustrator (ex: Ron Spencer)
@@ -47,8 +47,7 @@ Restrictions:
   * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
   * profession (Mining, Tailoring, ...)
-  * in-play type (ex: Pet, Melee, Aura, ...)
-  * in-play limit (ex: 1, 2, ...)
+  * in-play type (ex: Pet, Melee, Aura, Unlimited, Unique, Shoulders, Wraist, Ring, AMulet...)
 
 = Needed information =
 
