@@ -54,33 +54,32 @@ Restrictions:
   * profession (Mining, Tailoring, ...)
   * in-play type (ex: Pet, Melee, Aura, Unlimited, Unique, Shoulders, Wraist, Ring, AMulet...)
 
-= XML models =
+= XML model =
 
-== Cardset model ==
 {{{
-<cardset id="HoA">
-  <name>Heroes of Azeroth</name>
-  <count>350</count>
-  <date>20070825</date>
-</release>
-}}}
-
-== Card model ==
-{{{
-<card set="TDP" id="105">
-  <name>Eye of Kilrogg</name>
-  <rarity>Common</rarity>
-  <cost>2</cost>
-  <faction>Neutral</faction>
-  <type>Ability</type>
-  <subtype>Demonology</subtype>
-  <rulesText>Look at target opponent's hand and choose a card. Remove that card from the game.</rulesText>
-  <flavorText>The Eye was named in honor of Kilrogg Deadeye, chieftain of the Bleeding Hollow clan.</flavorText>
-  <illustrator>Clint Langley</illustrator>
-  <restrictions>
-    <class>Warlock</class>
-  </restrictions>
-</card>
+<cardset id="TDP">
+  <name>Through the Dark Portal</name>
+  <count>319</count>
+  <date>20070411</date>
+  <cards>
+  ...
+    <card id="105">
+      <name>Eye of Kilrogg</name>
+      <rarity>Common</rarity>
+      <cost>2</cost>
+      <faction>Neutral</faction>
+      <type>Ability</type>
+      <subtype>Demonology</subtype>
+      <rulesText>Look at target opponent's hand and choose a card. Remove that card from the game.</rulesText>
+      <flavorText>The Eye was named in honor of Kilrogg Deadeye, chieftain of the Bleeding Hollow clan.</flavorText>
+      <illustrator>Clint Langley</illustrator>
+      <restrictions>
+        <class>Warlock</class>
+      </restrictions>
+    </card>
+    ...
+  <cards>
+<cardset>
 }}}
 
 
