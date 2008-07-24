@@ -59,7 +59,6 @@ Restrictions:
 {{{
 <cardset id="TDP">
   <name>Through the Dark Portal</name>
-  <count>319</count>
   <date>20070411</date>
   <cards>
   ...
