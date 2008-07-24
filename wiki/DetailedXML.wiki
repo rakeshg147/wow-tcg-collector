@@ -1,11 +1,16 @@
 #labels Phase-Design,Phase-Requirements,Featured
 #All about the XML files here.
 
-= Introduction =
+= What will we need to handle? =
 
-Summary of all the data needed for the XML files.
+== What is a WOW cardset? ==
 
-= What is a WOW card? =
+  * cardset id (ex: number or identifiant like HoA)
+  * name (ex: Heroes of Azeroth)
+  * number of cards (ex: 350)
+  * date (20070825) (useful to sort choice lists)
+
+== What is a WOW card? ==
 
   * card id (ex: TDP-105 or 1105 ...)
   * card name (ex: Eye of Kilrogg)
@@ -49,41 +54,30 @@ Restrictions:
   * profession (Mining, Tailoring, ...)
   * in-play type (ex: Pet, Melee, Aura, Unlimited, Unique, Shoulders, Wraist, Ring, AMulet...)
 
-= Needed information =
+= XML models =
 
-XML coding:
-  * Fields explanation
-  * Number of XML files ...
-  * Squeleton of the xml file:
+== Cardset model ==
 {{{
-   <card id=""
-        name=""
-	faction=""
-	type=""
-	supertype=""
-	subtype=""
-	keywords=""
-	race=""
-	class=""
-	allowedrace=""
-	allowedtalent=""
-	allowedprofession=""
-	allowedclass=""
-	talent=""
-	professions=""
-	cost=""
-	atk=""
-	atktype=""
-	strike_cost=""
-	def=""
-	health=""
-	rarity=""
-	artistname="">
-	<cardtext> </cardtext>
-	<flavortext> </flavortext>
-   </card>
-
+<cardset id="HoA">
+  <name>Heroes of Azeroth</name>
+  <count>350</count>
+  <date>20070825</date>
+</release>
 }}}
+
+== Card model ==
+{{{
+<card id="TDP-105">
+  <name>Eye of Kilrogg</name>
+  <cardset>TDP</cardset>
+  <rarity>Common</rarity>
+  
+</card>
+}}}
+
+
+----
+
   * id of the card:
         * example1: 
 {{{
