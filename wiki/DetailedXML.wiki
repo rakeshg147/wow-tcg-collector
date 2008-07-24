@@ -7,15 +7,13 @@
 
   * cardset id (ex: number or identifiant like HoA)
   * name (ex: Heroes of Azeroth)
-  * number of cards (ex: 350)
+  * cards count (ex: 350)
   * date (20070825) (useful to sort choice lists)
 
 == What is a WOW card? ==
 
   * card id (ex: TDP-105 or 1105 ...)
   * card name (ex: Eye of Kilrogg)
-  * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
-  * keywords (ex: Protector, Elusive, Untargetable, Ferocity, Long-Range, Stealth)
   * race (ex: Human, Orc, ...)
   * class (ex: Warrior, Mage, ...)
   * talent (Feral, Fire, ...)
@@ -25,6 +23,8 @@
   * supertype (Instant, Two-Handed)
   * subtype (ex: Fire, Axe, Demon, Felguard, ...)
   * specialization (ex: Talent, Talent Curse, Demon Talent, ...)
+  * keywords (ex: Protector, Elusive, Untargetable, Ferocity, Long-Range, Stealth)
+  * rules text (ex: Look at target opponent's hand and choose a card. Remove that card from the game.)
   * flavor text (ex: Speaking never seemed like a luxury before...)
   * illustrator (ex: Ron Spencer)
   * cost (ex: 0, 1, 2, ...)
@@ -67,11 +67,19 @@ Restrictions:
 
 == Card model ==
 {{{
-<card id="TDP-105">
+<card set="TDP" id="105">
   <name>Eye of Kilrogg</name>
-  <cardset>TDP</cardset>
   <rarity>Common</rarity>
-  
+  <cost>2</cost>
+  <faction>Neutral</faction>
+  <type>Ability</type>
+  <subtype>Demonology</subtype>
+  <rulesText>Look at target opponent's hand and choose a card. Remove that card from the game.</rulesText>
+  <flavorText>The Eye was named in honor of Kilrogg Deadeye, chieftain of the Bleeding Hollow clan.</flavorText>
+  <illustrator>Clint Langley</illustrator>
+  <restrictions>
+    <class>Warlock</class>
+  </restrictions>
 </card>
 }}}
 
