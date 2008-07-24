@@ -1,6 +1,4 @@
 #labels Phase-Design,Phase-Requirements,Featured
-#All about the XML files here.
-
 = What will we need to handle? =
 
 == What is a WOW cardset? ==
@@ -107,4 +105,4 @@ image: FOO-6.jpg or outland-6.jpg
 image: FOO-6.jpg
 }}}
 
-For details on the extension names, shortnames... see [http://spreadsheets.google.com/ccc?key=pJfJ3W0ysXywzKuncj23XBg googledocs]
+For details on cardsets names and shortnames see this [http://spreadsheets.google.com/ccc?key=pJfJ3W0ysXywzKuncj23XBg googledocs spreadsheet]
