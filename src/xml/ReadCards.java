@@ -39,14 +39,21 @@ public class ReadCards {
 			DocumentBuilder constructor = factory.newDocumentBuilder();
             Document document = constructor.parse(xmlFile);
             Element root = document.getDocumentElement();
-
-            NodeList cardList = root.getElementsByTagName("card");
-
-            for (int i = 0 ; i < cardList.getLength() ; i++){
-            	Element e = (Element)cardList.item(i);
-            	//if(e.hasAttribute("id")){Logs.logger.info("new card: "+e.getAttribute("id"));}
-            	CardsList.add(xmlToCard(e));
+            
+            NodeList setList = document.getElementsByTagName("cardset");
+           // NodeList setList = root.getElementsByTagName("cardset");
+            for (int i = 0 ; i < setList.getLength() ; i++){
+            	Element eSet = (Element)setList.item(i);
+            	
+            	String set = eSet.getAttribute("shortname");
+            	
+                NodeList cardList = eSet.getElementsByTagName("card");
+                for (int j = 0 ; j < cardList.getLength() ; j++){
+                	Element eCard = (Element)cardList.item(j);
+                	CardsList.add(xmlToCard(eCard, set));
+                }
             }
+            
 
 		
 		}catch(ParserConfigurationException pce){
@@ -61,9 +68,10 @@ public class ReadCards {
         }
 	}	
 	
-	private static Card xmlToCard(Element e){
+	private static Card xmlToCard(Element e, String set){
 		Card card=new Card();
 		
+		card.setSet(set);
 		card.setCardtext(e.getAttribute("cardtext"));
 		card.setCost(e.getAttribute("cost"));
 		card.setName(e.getAttribute("name"));

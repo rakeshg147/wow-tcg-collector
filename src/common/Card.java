@@ -1,32 +1,35 @@
 package common;
 
+import java.io.File;
+
 public class Card {
-	private String id="";
-	private String name="";
-	private String faction="";
-	private String type="";
-	private String supertype="";
-	private String subtype="";
-	private String keywords="";
-	private String race="";
-	private String cclass="";
-	private String allowedrace="";
-	private String allowedtalent="";
-	private String allowedprofession="";
-	private String allowedclass="";
-	private String talent="";
-	private String professions="";
-	private String cost="";
-	private String atk="";
-	private String atktype="";
-	private String strike_cost="";
-	private String def="";
-	private String health="";
-	private String rarity="";
-	private String artistname="";
-	private String cardtext="";
-	private String flavortext="";
-	
+	private String set = null;
+	private String id = null;
+	private String name = null;
+	private String faction = null;
+	private String type = null;
+	private String supertype = null;
+	private String subtype = null;
+	private String keywords = null;
+	private String race = null;
+	private String cclass = null;
+	private String allowedrace = null;
+	private String allowedtalent = null;
+	private String allowedprofession = null;
+	private String allowedclass = null;
+	private String talent = null;
+	private String professions = null;
+	private String cost = null;
+	private String atk = null;
+	private String atktype = null;
+	private String strike_cost = null;
+	private String def = null;
+	private String health = null;
+	private String rarity = null;
+	private String artistname = null;
+	private String cardtext = null;
+	private String flavortext = null;
+	private String imagePath = null;
 	
 	public String getId() {
 		return id;
@@ -177,5 +180,27 @@ public class Card {
 	}
 	public void setFlavortext(String flavortext) {
 		this.flavortext = flavortext;
+	}
+
+	public String getImagePath() {
+		if (imagePath == null) {
+			// build image path
+			String tmpPath = "img/" + set + "/" + id + ".jpg";         //"img/MoL/Mol-129.jpg"
+			File imageFile = new File(tmpPath);
+			if (imageFile.isFile()){
+				imagePath = tmpPath;
+			}
+			else {
+				imagePath = Const.backImage;
+				Logs.logger.info("Image not existing: " + tmpPath);
+			}
+		}
+		return imagePath;
+	}
+	public String getSet() {
+		return set;
+	}
+	public void setSet(String set) {
+		this.set = set;
 	}
 }
