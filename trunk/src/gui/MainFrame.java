@@ -11,7 +11,9 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JButton;
 import javax.swing.JScrollPane;
@@ -22,6 +24,8 @@ import sun.tools.jar.JarImageSource;
 
 import common.Card;
 import common.CardsList;
+import common.Const;
+import common.Logs;
 
 public class MainFrame extends JFrame implements ActionListener{
 
@@ -41,8 +45,7 @@ public class MainFrame extends JFrame implements ActionListener{
 	private int W_START=800; // start width of the window
 	private int H_START=600; //min height of the window
 
-	private Image image;
-	private ImagePane imagePane;
+	private JLabel image;
 	
 	private JSplitPane contentPane;
 	private JSplitPane panelMainCollec;
@@ -116,21 +119,26 @@ public class MainFrame extends JFrame implements ActionListener{
 		return panelCard;
 	}
 	
-	private JPanel buildPanelCardImage(){
+	/*private JPanel buildPanelCardImage(){
 		panelCardImage = new JPanel();
 		panelCardImage.setMinimumSize(new Dimension(W_CARD_MIN, H_CARD_IM_MIN));
 		image = Toolkit.getDefaultToolkit().getImage("img/back.jpg");
 		imagePane= new ImagePane();
 		panelCardImage.add(imagePane);
 		return panelCardImage;
+	}*/
+	
+	private JPanel buildPanelCardImage(){
+		 return buildPanelCardImage(Const.backImage);
 	}
 	
 	private JPanel buildPanelCardImage(String im){
 		panelCardImage = new JPanel();
 		panelCardImage.setMinimumSize(new Dimension(W_CARD_MIN, H_CARD_IM_MIN));
-		image = Toolkit.getDefaultToolkit().getImage(im);
-		imagePane= new ImagePane();
-		panelCardImage.add(imagePane);
+		
+		image = new JLabel(null, new ImageIcon(im), JLabel.CENTER);
+
+		panelCardImage.add(image);
 		return panelCardImage;
 	}
 	
@@ -153,8 +161,8 @@ public class MainFrame extends JFrame implements ActionListener{
 		return cardList;
 	}
 	
-    class ImagePane extends JPanel {
-    	/** auto generated */
+/*    class ImagePane extends JPanel {
+    	// auto generated 
 		private static final long serialVersionUID = 1L;
 		ImagePane() {
     	    setPreferredSize(new Dimension(W_CARD_MIN,H_CARD_IM_MIN));
@@ -163,7 +171,7 @@ public class MainFrame extends JFrame implements ActionListener{
     	    super.paintComponent(g);
     	    g.drawImage(image, 6, 0, this);
     	}
-    }
+    }*/
     
 	class TableMouseListener implements MouseListener {
 		public void mouseClicked(MouseEvent e) {
@@ -176,10 +184,8 @@ public class MainFrame extends JFrame implements ActionListener{
 		public void mouseReleased(MouseEvent e) {}
 		
 		private void changeCurrentCard(Card card){
-			buildPanelCardImage("img/MoL/Mol-129.jpg");
-			//image = Toolkit.getDefaultToolkit().getImage("img/MoL/Mol-129.jpg");
-			//panelCardImage.imageUpdate(image, 0, 0, 0, 100, 100);
-			System.out.println("0d0d");
+			image.setIcon(new ImageIcon(card.getImagePath())); //"img/MoL/Mol-129.jpg"
+			Logs.logger.info("Displaying image: " + card.getImagePath());
 		}
 	}
 }
